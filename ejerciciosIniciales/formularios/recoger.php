@@ -1,7 +1,7 @@
 <?php
 
-    //print_r($_POST);
-    //echo '<br />';
+    print_r($_POST);
+    echo '<br />';
 
     /*
     foreach ($_POST as $indice => $valor) {
@@ -26,7 +26,9 @@
         echo 'Nombre Desastre: '.$_POST['nomDesastre'].'<br />';
     }
 
-    echo 'Tipo: '.$_POST['tipo'].'<br />';
+    if(isset($_POST['tipo'])){
+        echo 'Tipo: '.$_POST['tipo'].'<br />';
+    }
 
     if(!empty($_POST['descripcion'])) {
         echo 'Descripcion: '.$_POST['descripcion'].'<br />';
