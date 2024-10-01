@@ -1,7 +1,7 @@
 <?php
 
-    print_r($_POST);
-    echo '<br />';
+    //print_r($_POST);
+    //echo '<br />';
 
     /*
     foreach ($_POST as $indice => $valor) {
